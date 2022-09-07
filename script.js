@@ -1,6 +1,4 @@
-
 var selectedRow = null;
-
 function onFormSubmit() {
     let formData = readFormData();
     if(selectedRow == null) {
@@ -8,12 +6,12 @@ function onFormSubmit() {
     }
    else{
     updateRecord(formData);
-    selectedRow = null;
-
+    
    }
+
    var noProductsFound = document.getElementById('no-product');
    if(formData) {
-       noProductsFound.style.display = 'none';
+       noProductsFound.style.display = 'none'; //sets display to none if products are found
    }
     }
    
