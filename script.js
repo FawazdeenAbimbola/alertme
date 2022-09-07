@@ -18,9 +18,9 @@ function onFormSubmit() {
 
     function readFormData() {
         let formData = {};
-        formData["productName"] = document.getElementById('productName').value;
-        formData["productId"] = document.getElementById('productId').value;
-        formData["date"] = document.getElementById('date').value;
+        formData["productName"] = document.getElementById('productName').value; //retrieves the product name
+        formData["productId"] = document.getElementById('productId').value; //retrieves the product id
+        formData["date"] = document.getElementById('date').value; //retrieves the expiry date
         return formData;
     }
     
