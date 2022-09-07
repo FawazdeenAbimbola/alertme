@@ -6,6 +6,7 @@ Alertme is a web-app that helps to solve the problem of ingredients/products was
 #### How to use
 * Click the link below to start the Alertme Webapp.
 * Add product name, product ID(how it can be easily identified or referenced), expiry date and click submit.
+
 [Open AlertMe](https://fawazdeenabimbola.github.io/alertme/)
 
 #### How it works
