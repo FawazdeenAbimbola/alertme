@@ -1,4 +1,4 @@
-#### Alertme
+### Alertme
 ---
 #### Description
 Alertme is a web-app that helps to solve the problem of ingredients/products wastage due to the issue of not using a group of products/ingredients before their respective expiry dates. 
@@ -7,7 +7,8 @@ Alertme is a web-app that helps to solve the problem of ingredients/products was
 * Click the link below to start the Alertme Webapp.
 * Add product name, product ID(how it can be easily identified or referenced), expiry date and click submit.
 
-[Open AlertMe](https://fawazdeenabimbola.github.io/alertme/)
+[Open AlertMe](https://fawazdeenabimbola.github.io/alertme/) 
+
 
 #### How it works
 There are 5 rows: Product Name, Product ID, Expiry date, Status, Actions. The status can only display two outputs- Good or Expired. Under the Actions are two buttons- Edit and Delete. The "Edit" button is used to modify any changes in the field of the product while the "Delete" button is used to remove a particular product.
