@@ -6,26 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Alertme</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylehsheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section class="container">
+        <div class="logo">
+                    <p>AlertMe <i class="fa fa-desktop" aria-hidden="true"></i></p>
+        </div>
+
         <div class="addproduct">
-            <form action="" onsubmit="">
+            <form action="" onsubmit="event.preventDefault(); onFormSubmit();">
+                <div class="title">
+                    <h2>Add a new product</h2>
+                    <p>It's quick and easy.</p>
+                </div>
                 <div class="productName">
-
-                </div>
-                <div>
-                    <div class="productId">
-
-                    </div>
+                    <label for="pname">Product Name</label>
+                    <input type="text" name="productName" id="productName" placeholder="Enter your product name">
+                     </div>
+                     <div class="productId">
+                        <label for="pId">Product ID</label>
+                         <input type="text" name="productId" id="productId" placeholder="Enter your product ID">
+                     </div>
                     <div class="expiryDate">
-                        
+                        <label for="pId">Expiry Date</label>
+                        <input type="date" name="date" id="date" placeholder="Expiry Date">
                     </div>
-                </div>
+                    <div class="submit">
+                        <input type="submit" class="submit-btn" value="Submit">
+                    </div>
+    
             </form>
         </div>
         <div class="showproduct">
-
+            <table>
+    
+                <td>
+                   <table class="list" id="productlist">
+                    <thead>
+                        <tr>
+                            <th>Product name</th>
+                            <th>Product ID</th>
+                            <th>Expiry Date</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <div class="no-product" id="no-product">
+                        <p>No product found/entered</p>
+                    </div>
+                   </table> 
+                </td>
+        </table>
         </div>
     </section>
     <script src="script.js"></script>
